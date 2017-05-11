@@ -68,7 +68,7 @@ articleView.setTeasers = function() {
         scrollTop: ($(this).parent().offset().top)
       },200);
       $(this).html('Read on &rarr;');
-      $(this).parent().find('.article-body *:nth-of-type(n+2)').hide();
+      $(this).parent().find(' *:nth-of-type(n+2)').hide();
     }
   });
 };
